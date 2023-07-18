@@ -28,8 +28,9 @@ button {
     font-size: 18px;
     font-weight: 500;
     padding: 8px;
-    border-radius: 12px;
-    width: 100px;
+    border: none;
+    border-radius: 8px;
+    width: 120px;
 }
 
 /* h2 has a default margin. This gets rid of the empty space above header */
@@ -48,6 +49,7 @@ h2 {
     display: flex;
     gap: 32px;
     font-weight: 700;
+    font-size: 18px;
 }
 
 ul {
@@ -59,3 +61,6 @@ ul {
     height: 300px;
 }
 
+.header-container {
+    display: flex;
+}
