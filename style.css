@@ -27,3 +27,8 @@ button {
     border-radius: 12px;
     width: 100px;
 }
+
+/* h2 has a default margin. This gets rid of the empty space above header */
+h2 {
+    margin-top: 0px;
+}
