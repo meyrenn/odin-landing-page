@@ -47,8 +47,11 @@ h2 {
 .right {
     display: flex;
     gap: 32px;
-    background-color: green;
-    
+    font-weight: 700;
+}
+
+ul {
+    list-style-type: none;
 }
 
 .header-image {
