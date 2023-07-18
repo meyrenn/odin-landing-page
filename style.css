@@ -2,11 +2,15 @@ body {
     font-family: Roboto, sans-serif;
     margin: 0;
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
     background-color: #1F2937;
     color: white;
+    padding: 24px;
+    height: 490px;
 }
 
 .hero-main-text {
@@ -32,3 +36,23 @@ button {
 h2 {
     margin-top: 0px;
 }
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.right {
+    display: flex;
+    gap: 32px;
+    background-color: green;
+    
+}
+
+.header-image {
+    width: 500px;
+    height: 300px;
+}
+
