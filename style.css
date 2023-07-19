@@ -167,3 +167,14 @@ a {
 .textline2 {
     font-weight: 300;
 }
+
+/* Footer */
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
