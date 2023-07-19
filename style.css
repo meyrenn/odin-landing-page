@@ -142,11 +142,12 @@ a {
 }
 
 .button2 {
-    width: 120px;
+    width: 130px;
     height: 40px;
     padding: 8px;
     border-radius: 8px;
     border-color: white;
+    border-style: solid;
     background-color: #3882F6;
     color: white;
     font-weight: 500;
@@ -154,7 +155,7 @@ a {
 }
 
 .blue-box-text {
-    color: #E5E7EB;
+    color: white;
     display: flex;
     flex-direction: column;
 }
@@ -162,10 +163,12 @@ a {
 .textline1 {
     font-weight: 900;
     font-size: 18px;
+    margin-bottom: 3px;
 }
 
 .textline2 {
     font-weight: 300;
+    color: #E5E7EB;
 }
 
 /* Footer */
