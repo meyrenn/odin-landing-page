@@ -78,7 +78,7 @@ a {
 
 .service-image {
     width: 200px;
-    height: 200px;
+    height: 220px;
 }
 
 .white-title {
@@ -86,14 +86,18 @@ a {
     font-weight: 900;
     color: #1F2937;
     text-align: center;
+    padding: 40px;
 }
 
 .white-container {
     display: flex;
     gap: 32px;
     justify-content: center;
+    margin-bottom: 40px;
 }
 
-.service {
+.service-text {
     text-align: center;
+    font-size: 18px;
+    padding: 8px;
 }
